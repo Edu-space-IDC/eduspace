@@ -1,0 +1,16 @@
+# dependencias
+node_modules
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# build de vite
+dist
+.vite
+
+# archivos de Vercel
+.vercel
+
+# sistema
+.DS_Store
+Thumbs.db
