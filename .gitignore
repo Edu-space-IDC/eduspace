@@ -1,16 +1,22 @@
-# dependencias
+# Dependencias
 node_modules
 package-lock.json
 yarn.lock
 pnpm-lock.yaml
 
-# build de vite
+# Archivos de entorno (¡MUY IMPORTANTE!)
+.env
+.env.*
+!.env.example
+.env.local
+
+# Build de Vite
 dist
 .vite
 
-# archivos de Vercel
+# Archivos de Vercel
 .vercel
 
-# sistema
+# Sistema
 .DS_Store
 Thumbs.db
