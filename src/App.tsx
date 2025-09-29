@@ -27,6 +27,14 @@ import {
   type Teacher,
 } from "./utils/types";
 
+// 🚀 Incorporación de Supabase
+import { createClient } from "@supabase/supabase-js";
+
+const supabase = createClient(
+  import.meta.env.VITE_SUPABASE_URL,
+  import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY
+);
+
 export default function App() {
   const [activeView, setActiveView] =
     useState<View>("dashboard");
